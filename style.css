@@ -1,4 +1,9 @@
 #logo {
-	width: 600px;
-	height: 250px;
+	width: 550px;
+	height: 150px;
+}
+
+.searchbar {
+	width:550px;
+	height: 30px;
 }
