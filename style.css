@@ -1,14 +1,26 @@
 #logo {
 	width: 500px;
 	height: 150px;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+	margin-top: -50px;
+  margin-left: -150px;
 }
 
 #searchbar {
 	width:600px;
 	height: 20px;
+	position: fixed;
+	top: 70%;
+	left: 41%;
+	margin-top: -50px;
+	margin-left: -200px;
 }
 
 #apps {
 	width: 15px;
 	height: 15px;
 }
+
+
