@@ -1,9 +1,14 @@
 #logo {
-	width: 550px;
+	width: 500px;
 	height: 150px;
 }
 
-.searchbar {
-	width:550px;
-	height: 30px;
+#searchbar {
+	width:600px;
+	height: 20px;
+}
+
+#apps {
+	width: 15px;
+	height: 15px;
 }
