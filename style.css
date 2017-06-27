@@ -2,27 +2,40 @@
 	font-family: sans-serif;
 }
 
-#container {
-	width: 100%;
+
+.logo {
+	width: 350px;
+	height: 100;
 	position: fixed;
-	top: 50%;
-	left: 50%;
+	top: 338px;
+	left: 500px;
 	margin-top: -150px;
 	margin-right: -150px;
 }
 
-
-#logo {
-	width: 500px;
-	height: 150px;
+#searchbar {
+	margin-top: 300px;
+	margin-left: 400px;
 }
 
-.buttons #searchbar {
-	width:600px;
+.searchbar {
+	top: 400px;
+	left: 500px;
+	width: 500px;
 	height: 20px;
-	position: fixed;
-	top: 70%;
+	margin-top: 20px;
+	box-shadow: 0px 0px 3px 3px #ddd;
+}
+
+
+.buttons {
+	background-color: #e7e7e7;
+	text-align: center;
+	top: 90%;
 	left: 41%;
+	position: block;
+
+
 }
 
 #apps {
@@ -30,8 +43,19 @@
 	height: 15px;
 }
 
+#sign-in{
+	background-color: #4286f4;
+	padding: 3px 8px;
+  border:none;
+  font-size:90%;
+  text-align: center;
+  color: white;
+  border-radius: 8%;
+}
+
 #navbar {
 	width: 100%;
+
 }
 #navbar ul {
 	list-style-type: none;
@@ -57,11 +81,6 @@ ul.navbar {
 	color: #727272;
 }
 
-.buttons {
-	position: fixed;
-	top: 60%;
-	left: 40%;
-}
 
 .footer ul {
 	list-style-type: none;
