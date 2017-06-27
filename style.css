@@ -2,6 +2,10 @@
 	font-family: sans-serif;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
 
 .logo {
 	width: 350px;
@@ -15,14 +19,14 @@
 
 #searchbar {
 	margin-top: 300px;
-	margin-left: 400px;
+	margin-left: 425px;
 }
 
 .searchbar {
 	top: 400px;
 	left: 500px;
 	width: 500px;
-	height: 20px;
+	height: 25px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 3px 3px #ddd;
 }
@@ -31,11 +35,19 @@
 .buttons {
 	background-color: #e7e7e7;
 	text-align: center;
-	top: 90%;
-	left: 41%;
-	position: block;
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+	border-style: none;
+	font-weight: bold;
+	color: #7e7e7f; 
+	margin-top: 20px;
+	margin-right: 10px;
+	right: 80px;
+}
 
-
+#search-button {
+	margin-left: 100px;
 }
 
 #apps {
@@ -55,6 +67,9 @@
 
 #navbar {
 	width: 100%;
+	position: fixed;
+	display: inline;
+	margin-top: 0px;
 
 }
 #navbar ul {
@@ -119,7 +134,9 @@ ul.navbar {
 	text-decoration: underline;
 }
 
-body {
-	margin: 0;
-	padding: 0;
+.buttons:hover {
+	color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #adadad;
 }
